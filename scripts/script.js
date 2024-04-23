@@ -10,6 +10,7 @@ getJokeBtn.addEventListener("click", function (){
     
   });
 
+  
   async function getDaddyJoke(){
     // stuff inside to do a fetch and apiResponse to then save to json format
     let apiResponse = await fetch(dadUrl, {
