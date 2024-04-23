@@ -19,6 +19,9 @@ getJokeBtn.addEventListener("click", function (){
     }).then(Response => Response.json());
     console.log(apiResponse.joke);
 
+    //inner text used her to change the display of the current text shown 
+    jokeDisplay.innerText = apiResponse.joke;
+
     
 };
 
