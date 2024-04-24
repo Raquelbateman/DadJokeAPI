@@ -4,25 +4,27 @@ let getJokeBtn = document.getElementById("getJokeBtn");
 
 const dadUrl = "https://icanhazdadjoke.com/";
 
-getJokeBtn.addEventListener("click", function (){
+getJokeBtn.addEventListener("click", function () {
 
-      getDaddyJoke();
-    
-  });
+    getDaddyJoke();
 
-  
-  async function getDaddyJoke(){
-    // stuff inside to do a fetch and apiResponse to then save to json format
-    let apiResponse = await fetch(dadUrl, {
+});
+
+async function getDaddyJoke() {
+
+    let dadJoke = await fetch(dadUrl, {
         headers: {
-            Accept:"application/json",
+            Accept: "application/json",
         },
     }).then(Response => Response.json());
-    console.log(apiResponse.joke);
 
-    //inner text used her to change the display of the current text shown 
-    jokeDisplay.innerText = apiResponse.joke;
 
-    
+    console.log(dadJoke.joke);
+
+    jokeDisplay.innerText = dadJoke.joke;
+
+
+
 };
+
 
