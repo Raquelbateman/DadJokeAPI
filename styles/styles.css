@@ -7,19 +7,34 @@ body {
 
 h1 {
   color: purple;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
 }
+
 
 .container{
     display: flex;
     justify-content: center;
+    margin-top: 08%;
     border-radius: 100px 15px 100px 10px;
-    background-color:antiquewhite;
+    background-color:#FFCED6;
     width:740px;
-    height:500px;
+    height:520px;
     border: solid;
-    animation-name: border;
-    animation-duration: 0.5s;
+ 
 }
+
+#jokeDisplay{
+    margin-top: 30%;
+}
+
+#jerryBear{
+    margin-top:40px;
+    width:350px;
+    height:420px;
+}
+
 
 #getJokeBtn{
     height:10px;
