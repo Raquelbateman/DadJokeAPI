@@ -19,8 +19,8 @@ body {
 }
 
 #dadTitle {
-    margin-left: 10%;
-      font-size: 38px;
+    margin-left: 7%;
+      font-size: 42px;
       margin-top: 20px;
       color: #000000
     }
@@ -28,13 +28,14 @@ body {
 #jokeDisplay{
     color: #000000;
     font-size:30PX;
-    margin-left:100px;
+    margin-left:40px;
     margin-top: 2cqh;;
     text-align: center;
+    width:335px;
 }
 
 #jerryBear{
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: -95px;
     width:260px;
     height:450px;
