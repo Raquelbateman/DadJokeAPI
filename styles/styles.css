@@ -10,6 +10,7 @@ h1 {
   font-size: 40px;
   margin-left: 40px;
   margin-top: 30px;
+  -webkit-text-fill-color: #000000
 }
 
 p{
