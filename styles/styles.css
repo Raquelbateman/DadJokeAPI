@@ -5,13 +5,6 @@ body {
   font-family: "Rampart One", sans-serif;
 }
 
-h1 {
-margin-left: 10%;
-  font-size: 38px;
-  margin-top: 50px;
-  color: #000000
-}
-
 
 .container{
     display: flex;
@@ -25,6 +18,13 @@ margin-left: 10%;
  
 }
 
+#dadTitle {
+    margin-left: 10%;
+      font-size: 38px;
+      margin-top: 20px;
+      color: #000000
+    }
+    
 #jokeDisplay{
     color: #000000;
     font-size:30PX;
@@ -35,7 +35,7 @@ margin-left: 10%;
 
 #jerryBear{
     margin-left: 50px;
-    margin-top: -65px;
+    margin-top: -75px;
     width:260px;
     height:450px;
     
