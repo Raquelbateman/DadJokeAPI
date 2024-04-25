@@ -44,9 +44,10 @@ body {
 
 
 #getJokeBtn{
+    border-radius: 100px 15px 100px 10px;
+    background-color:#FFCED6;
+    margin-left:500px;
     height:50px;
-    width:70px;
-   
-    
+    width:470px; 
 }
 
