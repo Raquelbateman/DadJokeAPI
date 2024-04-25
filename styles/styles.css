@@ -3,6 +3,8 @@
 body {
   background-image: url("/media/images/bacckgroundimage.jpg"); 
   font-family: "Rampart One", sans-serif;
+  -webkit-text-fill-color: #000000;
+  text-shadow: #000000;
 }
 
 
