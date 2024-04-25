@@ -11,12 +11,12 @@ body {
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 08%;
+    margin-top: 6%;
     border-radius: 100px 15px 100px 10px;
     background-color:#FFCED6;
     width:740px;
     height:520px;
-    border: solid;
+    border: 4px solid #FD78AD;
  
 }
 
@@ -46,6 +46,8 @@ body {
 
 
 #getJokeBtn{
+    margin-top: 1%;
+    border: 2px solid #FD78AD;
     border-radius: 100px 15px 100px 10px;
     background-color:#FFCED6;
     margin-left:500px;
